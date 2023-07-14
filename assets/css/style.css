@@ -235,14 +235,6 @@ p {
     transform: translateY(-50%);
 }
 
-/* .discount-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% -50%);
-} */
-
 .discount-text span {
     color: #fff;
     font-family: 'Raleway', sans-serif;
@@ -429,9 +421,33 @@ form input[type="submit"] {
     padding: 0.5em;
 }
 
+/* (10) Footer Social */
+.footer-social {
+    background-color: #312a26;
+    overflow: auto;
+    padding: 1em 7.5%;
+}
+.social-widget {
+    background-color: #312a26;
+    float: left;
+    width: 33.33%;
+    margin: auto;
+    text-align: center;
+}
 
+.social-widget h3 {
+    color: #fff;
+    text-transform: uppercase;
+}
 
+.social-widget p {
+    color: #fff;
+}
 
+.social-widget img {
+    width: 25px;
+    height: 25px;
+}
 
 
 
